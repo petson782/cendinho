@@ -1,1 +1,1 @@
-web:gunicorn projetPython.wsgi
+web : gunicorn projetPython.wsgi
