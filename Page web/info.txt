@@ -1,0 +1,7 @@
+Dans ce programme,lorsque vous aurez a cliquer sur link 
+il va falloir inserer le nom de l'administrateur ainsi que son 
+mot de passe:
+admin: petson782
+mot de passe: Woodler01$$
+Ce programme permet de mettre a votre disposition
+les cours disponibles dans l'etablissement.

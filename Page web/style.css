@@ -1,0 +1,42 @@
+body{
+background-color:ffffff;
+
+}
+header
+{
+background:url(back.png);
+height:15%;
+}
+#Image img
+{
+width:960px;
+display:center;
+margin:auto;
+padding:auto;
+}
+
+#bloc_page
+{
+width: 900px;
+margin: auto;
+}
+#bode{
+float:right;
+width:20%;
+height:10%;
+padding-top:2%;
+}
+#bode li
+{
+display:inline-block;
+position:relative;
+
+}
+#bode li a
+{
+Background:white;
+width:450px
+height:809px;
+border-radius:20px 0 0 20px;
+
+}

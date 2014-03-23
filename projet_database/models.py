@@ -22,7 +22,7 @@ class Professeurs (models.Model):
     Tel = models.CharField(max_length=10)
     CvProf = models.CharField(max_length=400)
     Email = models.EmailField(max_length=50)
-    Site = models.URLField()
+   # Site = models.URLField()
 
 class DescriptionCours (models.Model):
      CodeCours = models.CharField(max_length=20)
