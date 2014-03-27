@@ -1,0 +1,20 @@
+models.py
+
+class Etablissement(models.Model):
+	nom=model.Charfield(max_length=12)
+	Lieu = model.CharField(max_length=13)
+	def __unicode__(self):
+	return u'%s %s' %(self.nom, self.lieu) 
+
+
+
+admin.py
+
+from app.models import nomtab1,nomtab2
+
+class profadmin(admin.Modeladmin):
+	list_display=('nom','prenom','email')
+	search_field=('nom','prenom')
+
+
+admin.site.register(profeeseur, profadmin)
